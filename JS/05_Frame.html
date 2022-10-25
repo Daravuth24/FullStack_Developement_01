@@ -2,17 +2,14 @@
 <html lang="en">
 <head>
     <title>Document</title>
-</head>
- <!-- change cols to rows for rows-->
-<frameset cols = "25%,50%,25%">
-    <frame name = "left" src ="https://www.tutorialspoint.com/html/top_frame.htm" />
-    <frame name = "center" src ="https://www.tutorialspoint.com/html/main_frame.htm" />
-    <frame name = "right" src ="https://www.tutorialspoint.com/html/bottom_frame.htm" />
-    
-    <noframe>
-        <body>
-            Your browser does not support frames.
-        </body>
-    </noframe>
+<frameset rows = "30%, 70%">
+    <frame src="Frame01.html" name = "top"/></frame>
+    <frameset cols = "30%, 70%">
+        <frame src= "Frame02.html" name = "left"></frame>
+        <frame name = "right"></frame>
+    </frameset>
 </frameset>
+</head>
+<body>
+</body>
 </html>
